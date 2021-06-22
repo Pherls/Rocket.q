@@ -1,2 +1,2 @@
 # NLW  Rocket.q
- Projeto da NLW Week Discover
+ Projeto da NLW Discover Week
