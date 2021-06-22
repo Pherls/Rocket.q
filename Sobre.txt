@@ -1,0 +1,7 @@
+O que vamos aprender?
+NodeJS
+EJS
+Banco de dados
+Querys
+Regras de negócio
+Front (HTML, CSS e JS)
