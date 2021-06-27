@@ -14,4 +14,6 @@ server.use(express.urlencoded({ extended: true }));
 
 server.use(route);
 
-server.listen(6000, () => console.log('RODANDO'));
+var porta = process.env.PORT || 8080;
+app.listen(porta);
+// server.listen(6000, () => console.log('RODANDO'));
