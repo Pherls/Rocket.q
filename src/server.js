@@ -14,4 +14,4 @@ server.use(express.urlencoded({ extended: true }));
 
 server.use(route);
 
-server.listen(5000, () => console.log('RODANDO'));
+server.listen(() => console.log('RODANDO'));

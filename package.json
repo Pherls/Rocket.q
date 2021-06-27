@@ -8,8 +8,9 @@
     "npm": "7.13.0"
   },
   "scripts": {
-    "start": "node .",
-    "init.js": "node src/db/init.js"
+    "start": "node src/server.js",
+    "init.js": "node src/db/init.js",
+    "heroku-postbuild": "npm run start"
   },
   "repository": {
     "type": "git",
