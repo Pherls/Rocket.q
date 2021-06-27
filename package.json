@@ -8,8 +8,8 @@
     "npm": "7.13.0"
   },
   "scripts": {
-    "start": "nodemon .",
-    "init-db": "node src/db/init.js"
+    "start": "node .",
+    "init.js": "node src/db/init.js"
   },
   "repository": {
     "type": "git",
