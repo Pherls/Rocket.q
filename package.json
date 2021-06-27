@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Projeto da NLW Discover Week",
   "main": "src/server.js",
+  "engines": {
+    "node": "16.2.0",
+    "npm": "7.13.0"
+  },
   "scripts": {
     "start": "nodemon .",
     "init-db": "node src/db/init.js"
@@ -20,6 +24,7 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
+    "heroku": "^7.2.0",
     "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2"
   },
