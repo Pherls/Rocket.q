@@ -11,20 +11,22 @@
   left: 0;
   display: flex;
 
-  background: var(--overlay-opacity);
+  background: rgba(4, 9, 17, 0.8);
+
   visibility: hidden;
   opacity: 0;
 }
 
 .modal-wrapper .modal {
   width: min(59rem, 90%);
+  background: var(--white);
   margin: auto;
 
   border-radius: 0.8rem;
-  background: var(--white);
 
-  font-family: "Poppins", open-sans;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
+
   padding: 6.4rem;
 }
 
@@ -43,16 +45,15 @@
 .modal-wrapper .modal input {
   margin-bottom: 4rem;
   padding: 1.3rem 1.6rem;
-
   border: 0.2rem solid var(--blue);
   outline: none;
-
   width: min(70%, 30.2rem);
 }
 
 .modal-wrapper .modal .buttons {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .modal-wrapper .modal .buttons > .button {
